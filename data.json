@@ -1,0 +1,174 @@
+[
+    {
+      "id": "1",
+      "rels": {
+        "spouses": ["2"],
+        "children": ["3"],
+        "father": "4",
+        "mother": "5"
+      },
+      "data": {
+        "first name": "Andrew",
+        "last name": "McLoughlin",
+        "birthday": "16-12-1988",
+        "gender": "M"
+      }
+    },
+    {
+      "id": "2",
+      "rels": {
+        "spouses": ["1"],
+        "children": ["3"]
+      },
+      "data": {
+        "first name": "Maggie",
+        "last name": "Zhou",
+        "birthday": "27-08-1990",
+        "gender": "F"
+      }
+    },
+    {
+      "id": "3",
+      "rels": {
+        "father": "1",
+        "mother": "2"
+      },
+      "data": {
+        "first name": "Ada",
+        "last name": "McLoughlin",
+        "birthday": "28-12-2021",
+        "gender": "F"
+      }
+    },
+    {
+      "id": "4",
+      "rels": {
+        "spouses": ["5"],
+        "children": ["1", "6"]
+      },
+      "data": {
+        "first name": "Michael",
+        "last name": "McLoughlin",
+        "birthday": "20-09-1946",
+        "gender": "M"
+      }
+    },
+    {
+      "id": "5",
+      "rels": {
+        "spouses": ["4"],
+        "children": ["1", "6"]
+      },
+      "data": {
+        "first name": "Toni",
+        "last name": "Bowes",
+        "birthday": "25-04-1950",
+        "gender": "F"
+      }
+    },
+    {
+      "id": "6",
+      "rels": {
+        "spouses": ["7"],
+        "children": ["8"],
+        "father": "4",
+        "mother": "5"
+      },
+      "data": {
+        "first name": "Alastair",
+        "last name": "McLoughlin",
+        "birthday": "18-05-1985",
+        "gender": "M"
+      }
+    },
+    {
+      "id": "7",
+      "rels": {
+        "spouses": ["6"],
+        "children": ["8"]
+      },
+      "data": {
+        "first name": "Flipper",
+        "last name": "King",
+        "birthday": "12-11-1986",
+        "gender": "F"
+      }
+    },
+    {
+      "id": "8",
+      "rels": {
+        "father": "6",
+        "mother": "7"
+      },
+      "data": {
+        "first name": "Isabel",
+        "last name": "McLoughlin",
+        "birthday": "01-04-2021",
+        "gender": "F"
+      }
+    },
+    {
+      "id": "9",
+      "rels": {
+        "spouses": ["10"],
+        "children": ["11", "12"]
+      },
+      "data": {
+        "first name": "Michael",
+        "last name": "Fisher",
+        "birthday": "03-08-1971",
+        "gender": "M"
+      }
+    },
+    {
+      "id": "10",
+      "rels": {
+        "spouses": ["9"],
+        "children": ["11", "12"]
+      },
+      "data": {
+        "first name": "Sarah",
+        "last name": "Taylor",
+        "gender": "F"
+      }
+    },
+    {
+      "id": "11",
+      "rels": {
+        "father": "9",
+        "mother": "10"
+      },
+      "data": {
+        "first name": "Barnaby",
+        "last name": "Fisher",
+        "birthday": "31-10-2008",
+        "gender": "M"
+      }
+    },
+    {
+      "id": "12",
+      "rels": {
+        "father": "9",
+        "mother": "10"
+      },
+      "data": {
+        "first name": "Miles",
+        "last name": "Fisher",
+        "birthday": "27-02-2013",
+        "gender": "M"
+      }
+    },
+    {
+      "id": "13",
+      "rels": {
+        "father": "",
+        "mother": ""
+      },
+      "data": {
+        "first name": "David",
+        "last name": "Fisher",
+        "birthday": "7-6-1973",
+        "gender": "M"
+      }
+    }
+  ]
